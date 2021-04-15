@@ -1,0 +1,8 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongConsumer
+metadata:
+  name: api-consumer
+  annotations:
+    plugins.konghq.com: api-rate-limit
+username: api
+custom_id: api-1
